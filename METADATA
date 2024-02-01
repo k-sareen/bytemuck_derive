@@ -1,20 +1,20 @@
+# This project was upgraded with external_updater.
+# Usage: tools/external_updater/updater.sh update external/rust/crates/bytemuck_derive
+# For more info, check https://cs.android.com/android/platform/superproject/+/main:tools/external_updater/README.md
+
 name: "bytemuck_derive"
 description: "derive proc-macros for `bytemuck`"
 third_party {
-  url {
-    type: HOMEPAGE
-    value: "https://crates.io/crates/bytemuck_derive"
-  }
-  url {
-    type: ARCHIVE
-    value: "https://static.crates.io/crates/bytemuck_derive/bytemuck_derive-1.4.1.crate"
-  }
-  version: "1.4.1"
-  # Dual-licensed, using the least restrictive per go/thirdpartylicenses#same.
   license_type: NOTICE
   last_upgrade_date {
-    year: 2023
-    month: 7
-    day: 24
+    year: 2024
+    month: 1
+    day: 31
+  }
+  homepage: "https://crates.io/crates/bytemuck_derive"
+  identifier {
+    type: "Archive"
+    value: "https://static.crates.io/crates/bytemuck_derive/bytemuck_derive-1.5.0.crate"
+    version: "1.5.0"
   }
 }
